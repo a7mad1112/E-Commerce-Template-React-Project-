@@ -1,0 +1,22 @@
+footer ul li a {
+    text-decoration: none !important;
+    transition: 0.2s;
+    position: relative;
+    line-height: 2;
+}
+footer ul li a:hover {
+    color: #39afa3 !important;
+}
+footer ul li a::after {
+    content: '';
+    position: absolute;
+    height: 80%;
+    width: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -1px;
+    background-color: rgba(0,0,0,.5)!important;
+}
+footer .payment img {
+    width: 45px;
+}

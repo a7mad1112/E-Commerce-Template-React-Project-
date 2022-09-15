@@ -1,0 +1,13 @@
+.carousel .carousel-item img {
+    object-fit: cover;
+}
+@media (min-width: 767px) {
+    .carousel .carousel-item img {
+        height: calc(100vh - 143px);
+    }
+}
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+    background-color: #414141 !important;
+    color: #000 !important;
+}

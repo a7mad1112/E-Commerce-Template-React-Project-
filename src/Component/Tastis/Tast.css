@@ -1,0 +1,9 @@
+.tastis-img {
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.tastis-img:hover {
+    
+    opacity: 1;
+}

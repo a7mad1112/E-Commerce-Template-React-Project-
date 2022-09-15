@@ -1,0 +1,42 @@
+.srv-box {
+    cursor: pointer;
+}
+.srv-box .srv-title {
+    font-size: 15px;
+}
+.srv-box p {
+    color: #787878;
+}
+.srv-box .icon {
+    overflow: hidden !important;
+    background-color: #eeeeee;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.3s ease-in;
+    position: relative;
+}
+.srv-box .icon div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #39afa3;
+    transition: 0.3s ease-in;
+}
+.srv-box .icon div:nth-child(2) {
+    left: 130px;
+}
+.srv-box:hover .icon div:nth-child(2) {
+    left: 50%;
+}
+.srv-box:hover .icon div:nth-child(1) {
+    left: -130px;
+}
+.srv-box:hover .icon {
+    background-color: #39afa3;
+}
+.srv-box:hover .icon div {
+    color: #fff;
+}

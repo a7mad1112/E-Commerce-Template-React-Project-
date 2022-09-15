@@ -1,0 +1,22 @@
+.brands .bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/subbanner4.jpg');
+    background-size: cover;
+}
+.brands .bg-img .text {
+    width: fit-content;
+    text-align: center;
+}
+.brands .bg-img .text h2,
+.brands .bg-img .text h4,
+.brands .bg-img .text h6 {
+    color: #000;
+}
+.brands button {
+    border: none;
+    padding: 12px 25px;
+}
+.brands button:hover {
+    transition: 0.4s ease-in-out;
+    color: #fff;
+    background-color: #000 !important;
+}

@@ -1,0 +1,4 @@
+.tastis .swiper-button-next,
+.tastis .swiper-button-prev {
+    display: none !important;
+}

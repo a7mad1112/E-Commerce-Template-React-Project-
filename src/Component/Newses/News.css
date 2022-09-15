@@ -1,0 +1,78 @@
+
+.news {
+    position: relative;
+}
+.news .date {
+    position: relative;
+    width: fit-content;
+    left: 0;
+    top: 38px;
+    z-index: 1;
+    background-color: #39afa3;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.news .imag-box {
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s;
+}
+.news .imag-box .imag {
+    transition: 0.3s;
+}
+.news:hover .imag-box .imag {
+    transform: scale(1.1);
+}
+.news .imag-box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7) );
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) );
+    opacity: 0;
+}
+.news:hover .imag-box::after {
+    opacity: 1;
+}
+
+.news .imag-box .icons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.news .imag-box .icons > div {
+    font-size: 24px;
+    margin: 0 8px;
+    padding: 0 15px 6px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.news .imag-box .icons > div svg {
+    font-size: 14px;
+}
+.news:hover .imag-box .icons > div {
+    opacity: 1;
+    transition: 0.3s;
+}
+.news p {
+    font-size: 14px;
+}
+.news > span {
+    font-size: 14px;
+    cursor: pointer;
+}
+.news > span:hover {
+    color: #39afa3 !important;
+}

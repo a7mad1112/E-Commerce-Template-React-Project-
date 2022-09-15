@@ -1,0 +1,21 @@
+.navbar {
+    padding: 45px 0 !important;
+    background-color: #f5f5f5 !important;
+}
+.navbar .dropdown p {
+    margin: 0;
+    padding: 0 12px;
+    color: #777 !important;
+}
+.navbar .nav-link {
+    font-size: 19px !important;
+    margin-left: 20px !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important
+}
+@media (max-width: 767px) {
+    .navbar {
+        padding: 15px 0 !important;
+    }
+}

@@ -1,0 +1,19 @@
+.my-form form input {
+    border: none;
+    padding: 12px 25px;
+}
+.my-form form input[type='email'] {
+    background-color: #eee;
+}
+.my-form form input[type='email']:focus {
+    outline: none;
+}
+
+.my-form form input[type='submit'] {
+    background-color: #39afa3;
+    color: #fff;
+}
+.my-form form input[type='submit']:hover {
+    transition: 0.4s ease-in-out;
+    background-color: #000 !important;
+}

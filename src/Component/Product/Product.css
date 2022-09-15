@@ -1,0 +1,52 @@
+.product {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.product[data-sale='SALE']::before {
+    content: attr(data-sale);
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #39afa3;
+    font-weight: bold;
+    padding: 4px 8px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.product .stars svg {
+    color: #c7c7c7;
+    font-size: 14px;
+}
+.product .product-title {
+    color: #9b9b9b;
+    transition: 0.2s ease-in-out;
+}
+.product .product-title:hover {
+    color: #000;
+}
+.product .blue-color {
+    color: #39afa3;
+    text-decoration: line-through;
+}
+.product .over-icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 14px;
+    right: -40px;
+    transition: 0.2s ease-in-out;
+}
+.product:hover .over-icons {
+    right: 20px;
+}
+.product .over-icons svg {
+    font-size: 22px;
+    color: #000 !important;
+    margin-bottom: 12px;
+    transition: 0.2s;
+}
+.product .over-icons svg:hover {
+    color: #39afa3 !important;
+}
