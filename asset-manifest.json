@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/E-Commerce-Template-React-Project-/static/css/main.c8a16abe.css",
+    "main.js": "/E-Commerce-Template-React-Project-/static/js/main.7a9705e4.js",
+    "static/js/787.6d35ee90.chunk.js": "/E-Commerce-Template-React-Project-/static/js/787.6d35ee90.chunk.js",
+    "static/media/euforiaelectronics-blog-2.jpg": "/E-Commerce-Template-React-Project-/static/media/euforiaelectronics-blog-2.1e47b2ddd5efb0fb3a04.jpg",
+    "static/media/euforiaelectronics-blog-4.jpg": "/E-Commerce-Template-React-Project-/static/media/euforiaelectronics-blog-4.832f005e8b34d82f9fb5.jpg",
+    "static/media/euforiaelectronics-blog-1.jpg": "/E-Commerce-Template-React-Project-/static/media/euforiaelectronics-blog-1.8f40061e5bbf06e34551.jpg",
+    "static/media/euforiaelectronics-blog-3.jpg": "/E-Commerce-Template-React-Project-/static/media/euforiaelectronics-blog-3.abb1033f52a79f611a67.jpg",
+    "static/media/main-banner3.jpg": "/E-Commerce-Template-React-Project-/static/media/main-banner3.0cae410f17b77d977ecd.jpg",
+    "static/media/main-banner1.jpg": "/E-Commerce-Template-React-Project-/static/media/main-banner1.b14c5e5907cd70079bc8.jpg",
+    "static/media/parallax.jpg": "/E-Commerce-Template-React-Project-/static/media/parallax.bf64aa23ed06fa6bee53.jpg",
+    "static/media/main-banner2.jpg": "/E-Commerce-Template-React-Project-/static/media/main-banner2.8f1c309ef10a9edae85a.jpg",
+    "static/media/subbanner4.jpg": "/E-Commerce-Template-React-Project-/static/media/subbanner4.f59b7eff4b3b2ed6634c.jpg",
+    "static/media/sub-banner3.jpg": "/E-Commerce-Template-React-Project-/static/media/sub-banner3.2ab899d292bca4943528.jpg",
+    "static/media/sub-banner2.jpg": "/E-Commerce-Template-React-Project-/static/media/sub-banner2.c272d40ec4b6b9a3e72a.jpg",
+    "static/media/sub-banner1.jpg": "/E-Commerce-Template-React-Project-/static/media/sub-banner1.6084c8db53c2164bc99f.jpg",
+    "static/media/testimonial_img1.jpg": "/E-Commerce-Template-React-Project-/static/media/testimonial_img1.ee150bfc3b8133bd4b12.jpg",
+    "static/media/testimonial_img3.jpg": "/E-Commerce-Template-React-Project-/static/media/testimonial_img3.9fa7b562a24fb9019cc1.jpg",
+    "static/media/testimonial_img2.jpg": "/E-Commerce-Template-React-Project-/static/media/testimonial_img2.6c35aba6ba72be79d611.jpg",
+    "static/media/1-pride-products-images_3.jpg": "/E-Commerce-Template-React-Project-/static/media/1-pride-products-images_3.7108ef6428a368c9e2e3.jpg",
+    "static/media/4-pride-products-images_9.jpg": "/E-Commerce-Template-React-Project-/static/media/4-pride-products-images_9.4f7633e01fd4f952a8eb.jpg",
+    "static/media/6-pride-products-images_9.jpg": "/E-Commerce-Template-React-Project-/static/media/6-pride-products-images_9.e08c5cec34fab66b279a.jpg",
+    "static/media/2-pride-products-images_4.jpg": "/E-Commerce-Template-React-Project-/static/media/2-pride-products-images_4.5b86898b997a04112213.jpg",
+    "index.html": "/E-Commerce-Template-React-Project-/index.html",
+    "main.c8a16abe.css.map": "/E-Commerce-Template-React-Project-/static/css/main.c8a16abe.css.map",
+    "main.7a9705e4.js.map": "/E-Commerce-Template-React-Project-/static/js/main.7a9705e4.js.map",
+    "787.6d35ee90.chunk.js.map": "/E-Commerce-Template-React-Project-/static/js/787.6d35ee90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8a16abe.css",
+    "static/js/main.7a9705e4.js"
+  ]
+}
